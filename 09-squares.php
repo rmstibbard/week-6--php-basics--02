@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-function squares($values)
+function squares(array $values): array
 {
     $squared = [];
 
