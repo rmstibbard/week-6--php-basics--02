@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function largest($values)
+function largest(array $values): int
 {
     $largestNumber = $values[0];
 
