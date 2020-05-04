@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function even($a)
+function even(int $a): bool
 {
     return ($a % 2 === 0) ? true : false;
 }
