@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function timesBy($numbers, $multiplier)
+function timesBy(array $numbers, float $multiplier): array
 {
     $multiplied = [];
 
