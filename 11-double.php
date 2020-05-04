@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-function double($values)
+function double(array $values): array
 {
     $doubled = [];
 
