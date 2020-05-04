@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-function wow($n)
+function wow(int $n): string
 {
     $output = "W";
 
