@@ -5,7 +5,7 @@
 declare(strict_types=1);
 
 // add parameter and return types
-function hello($name)
+function hello(string $name): string
 {
     return "hello {$name}";
 };
