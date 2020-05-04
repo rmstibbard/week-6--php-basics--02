@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function average5($a, $b, $c, $d, $e): float
+function average5(float $a, float $b, float $c, float $d, float $e): float
 {
     return ($a + $b + $c + $d + $e) / 5;
 }
