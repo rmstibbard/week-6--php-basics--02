@@ -7,7 +7,7 @@ declare(strict_types=1);
 
 // Avoiding use of array_intersect
 // but does not remove duplicate values
-function both($array1, $array2)
+function both(array $array1, array $array2): array
 {
     $answers = [];
     for ($i = 0; $i < count($array1); $i += 1) {
