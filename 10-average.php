@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function average($values)
+function average(array $values): float
 {
     $total = 0;
     for ($i = 0; $i < count($values); $i += 1) {
