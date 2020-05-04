@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-function oap($peep)
+function oap($peep): bool
 {
     return ($peep["age"] > 65) ? true : false;
 }
