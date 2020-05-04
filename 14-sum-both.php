@@ -11,7 +11,7 @@ declare(strict_types=1);
 //     return array_sum($values); // Using built-in array_sum
 // }
 
-function sum($values)
+function sum(array $values): int
 {
     $total = 0;
     for ($i = 0; $i < count($values); $i += 1) {
@@ -20,7 +20,7 @@ function sum($values)
     return $total;
 }
 
-function sumBoth($values1, $values2)
+function sumBoth(array $values1, array $values2): int
 {
     return sum($values1) + sum($values2);
 }
