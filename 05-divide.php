@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-function divide($a, $b)
+function divide(float $a, float $b): float
 {
     return ($a / $b);
 }
