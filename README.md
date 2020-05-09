@@ -1,4 +1,6 @@
-# Richard Stibbard - Week 6 - PHP Basics Challenges 02
+# Week 6 - PHP Basics Challenges 02
+## Repo name: week-6--php-basics--01
+## Local folder: 01-02
 
 - 01-join-words.php
 - 02-hello-name.php
